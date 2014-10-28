@@ -3,5 +3,5 @@
 	echo substr($out, 151584, 40);
 	$new = str_replace(substr($out, 151584, 40), sha1($argv[1]), $out);
 	$new_bin = hex2bin($new);
-	file_put_contents ( 'tester.exe', $new_bin );
+	file_put_contents ( 'p2 - research.exe.exe', $new_bin );
 ?>
